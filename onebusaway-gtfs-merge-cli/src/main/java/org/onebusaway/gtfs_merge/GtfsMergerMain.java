@@ -162,6 +162,7 @@ public class GtfsMergerMain {
     File outputPath = new File(args[args.length - 1]);
 
     merger.run(inputPaths, outputPath);
+    System.exit(0);
   }
 
   /*****************************************************************************
